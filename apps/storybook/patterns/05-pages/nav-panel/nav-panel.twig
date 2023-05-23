@@ -1,13 +1,11 @@
 {% embed "@templates/site-container.twig"
   with {
   primary_menu: pattern_preview('menu', {}, 'primary'),
-  language_select: pattern_preview('language_select'),
-  footer_menu: pattern_preview('menu', {}, 'footer'),
 } %}
   {% block main %}
     {% embed "@organisms/section/section.twig" with { columns: 1 } %}
       {% block column_1 %}
-    {{ pattern_preview('hero') }}
+    {{ pattern_preview('table') }}
       {% endblock %}
     {% endembed %}
   {% endblock %}
