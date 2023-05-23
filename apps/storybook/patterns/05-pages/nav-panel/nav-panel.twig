@@ -5,7 +5,9 @@
   {% block main %}
     {% embed "@organisms/section/section.twig" with { columns: 1 } %}
       {% block column_1 %}
-    {{ pattern_preview('table') }}
+    {{ pattern_preview('table',{
+
+    }) }}
       {% endblock %}
     {% endembed %}
   {% endblock %}

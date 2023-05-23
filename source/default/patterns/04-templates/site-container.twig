@@ -16,9 +16,3 @@
     <p>Main content</p>
   {% endblock %}
 </main>
-
-{% block footer %}
-  {% include "@organisms/footer/footer.twig" with {
-    footer_menu: footer_menu,
-  } only %}
-{% endblock footer %}

@@ -9,7 +9,7 @@ import 'organisms/header';
 import 'organisms/footer';
 
 export default {
-  title: 'Pages/Nav Panel',
+  title: 'Pages/Nav Station',
   parameters: {
     layout: 'fullscreen',
   },
@@ -17,6 +17,6 @@ export default {
 
 const template = require('./nav-panel.twig');
 
-export const Homepage = () => {
+export const forecast = () => {
   return <RenderTwig data={template}></RenderTwig>;
 };
