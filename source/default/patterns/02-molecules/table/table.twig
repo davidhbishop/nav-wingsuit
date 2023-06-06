@@ -14,14 +14,14 @@
 <div class="">
   <table class="table-list flex-1 flex md:table w-full text-gray-900">
     <thead>
-      {% for column in columns %}
-        <tr class="grid md:table-row">
-          <th class="h-1"></th>
-          {% for head in column.heads %}
-            <th class="border-b border-black text-center {% if head is empty %} pb-4 pt-6 {% else %} pt-2 pb-1{% endif %}">{{ head }}</th>
-          {% endfor %}
-        </tr>
-      {% endfor %}
+    {% for column in columns %}
+      <tr class="grid md:table-row bg-red-500">
+        <th class="h-1"></th>
+        {% for head in column.heads %}
+          <th class="border-b border-black text-white font-normal text-left {% if head is empty %} pb-4 pt-6 {% else %} pt-2 pb-1{% endif %}">{{ head }}</th>
+        {% endfor %}
+      </tr>
+    {% endfor %}
     </thead>
     <tbody class="flex flex-1 md:table-row-group overflow-auto">
       {% for row in rows %}

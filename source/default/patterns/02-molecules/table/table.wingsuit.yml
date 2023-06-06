@@ -8,37 +8,25 @@ table:
       type: object
       preview:
         - cells:
-            - Area
-            - Value 2
-            - Value 3
-            - Value 4
-            - Value 5
+            - Date
+            - 12:00 (UTC) on Sun 21 May 2023
         - cells:
-            - Value 1
-            - Value 2
-            - Value 3
-            - Value 4
-            - Value 5
+            - Wind
+            - Variable 3 or less, becoming north 3 to 5
         - cells:
-            - Value 1
-            - Value 2
-            - Value 3
-            - Value 4
-            - Value 5
+            - Sea state
+            - Smooth or light, becoming slight to moderate
         - cells:
-            - Value 1
-            - Value 2
-            - Value 3
-            - Value 4
-            - Value 5
+            - Visibility
+            - Fair
+        - cells:
+            - Weather
+            - Moderate or Good
     columns:
       type: object
       label: Columns
       preview:
         - heads:
-            - Cell 1
-            - Cell 2
-            - Cell 3
-            - Cell 4
-            - Cell 4
+            - Area
+            - St Davids Head to Great Orme Head, including St Georges Channel(10)
             -
